@@ -1,0 +1,29 @@
+.animate-quote {
+    animation: quote-animation 1s ease-in-out;
+  }
+  
+  .animate-author {
+    animation: author-animation 1s ease-in-out;
+  }
+  
+  @keyframes quote-animation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes author-animation {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
